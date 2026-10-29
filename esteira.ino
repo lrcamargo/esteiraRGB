@@ -276,7 +276,7 @@ void repousarServos() {
   servoAzul.write(REPOUSO_AZUL);
   servoVerde.write(REPOUSO_VERDE);
 
-  servoAtivo = false;
+  servoAtivo = fal+
   tempoDesvioAtual = 0;
   fimEstabilizacao = millis() + ESTABILIZACAO_SERVO_MS;
 }
